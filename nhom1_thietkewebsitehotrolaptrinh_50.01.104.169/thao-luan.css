@@ -1,0 +1,66 @@
+/* Tổng quát */
+body {
+  background-color: #1d2b5c; /* Màu nền xanh navy */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #162447;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #162447;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Danh sách thành viên */
+.col-md-3 {
+  background: #162447;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.col-md-3 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.col-md-3 ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid white;
+}
+
+/* Khung Chat */
+.chat-box {
+  background: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+  color: #333;
+}
+
+.chat-box h5 {
+  margin: 5px 0;
+}
+
+textarea {
+  background: #e9ecef;
+  color: #333;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
